@@ -2,6 +2,7 @@ extern crate dirs_sys;
 
 use std::env;
 use std::path::PathBuf;
+use std::iter::FromIterator;
 
 use BaseDirs;
 use UserDirs;
